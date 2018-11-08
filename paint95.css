@@ -1,0 +1,90 @@
+ body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("./images/backOil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(223, 53, 132);
+    text-shadow: .5px .5px rgb(255, 157, 214);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.mainRow {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+#colorColumn {
+    width: 30%;
+}
+
+#canvasColumn {
+    width: 70%;
+}
+
+#canvas{
+    margin: 50px 210px;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+button {
+    width: 85px;
+    height: 85px;
+    margin: 15px;
+    border-radius: 100%;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+#lightpink {
+    background-color: rgb(255, 125, 168);
+}
+
+#lightblue {
+    background-color: rgb(175, 175, 236);
+}
+
+#gold {
+    background-color: gold;
+}
+
+#lightgreen {
+    background-color: lightgreen;
+}
+
+#black {
+    background-color: black;
+}
+
+button#white {
+    background-color: white;
+    background-image: url("./images/eraser.png");
+    background-repeat: round;
+}
+
+#pen{
+    background-color: white;
+    background-image: url("./images/pen.png");
+    background-repeat: round;
+}
+
+#marker{
+    background-color: white;
+    background-image: url("./images/marker.png");
+    background-repeat: round;
+}
+
+.text{
+    font-size: 20px;
+}
