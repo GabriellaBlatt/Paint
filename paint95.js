@@ -1,8 +1,6 @@
-//global default variables
 var color = "lightpink";
 var currentSize= 10;
 
-//draw
 function draw() {
     var pen = document.createElement("div");
     pen.setAttribute("class", "pixel");
@@ -19,7 +17,6 @@ function draw() {
     drawArea.appendChild(pen);
 }
 
-//change brush color
 var colors = document.getElementsByClassName("color");
 
 for (var i=0; i<colors.length; i++){
@@ -28,7 +25,6 @@ for (var i=0; i<colors.length; i++){
     });
 }
 
-//enable mouse selector to draw
 var drawArea = document.getElementById("canvas");
 
 drawArea.addEventListener("mousedown", function () {
@@ -39,8 +35,8 @@ document.addEventListener("click", function () {
     drawArea.removeEventListener("mousemove", draw);
 });
 
-//change brush size
 var brushSize = document.getElementsByClassName("size");
+
 for(var i=0; i<brushSize.length; i++){
     brushSize[i].addEventListener("click", changeSize);
 }

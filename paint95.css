@@ -17,7 +17,7 @@ h1{
 .mainRow {
     display: flex;
     flex-direction: row;
-    height: 600px;
+    height: 550px;
 }
 
 #colorColumn {
@@ -29,7 +29,7 @@ h1{
 }
 
 #canvas{
-    margin: 50px 210px;
+    margin: 30px 210px;
     background-color: white;
     width: 500px;
     height: 500px;
@@ -39,9 +39,9 @@ h1{
 }
 
 button {
-    width: 85px;
-    height: 85px;
-    margin: 15px;
+    width: 115px;
+    height: 82px;
+    margin: 14px;
     border-radius: 100%;
     font-size: 70px;
     font-weight: 300;
@@ -56,15 +56,15 @@ button {
 }
 
 #gold {
-    background-color: gold;
+    background-color: rgb(250, 250, 125);
 }
 
 #lightgreen {
     background-color: lightgreen;
 }
 
-#black {
-    background-color: black;
+#lightsalmon {
+    background-color: lightsalmon;
 }
 
 button#white {
@@ -87,4 +87,6 @@ button#white {
 
 .text{
     font-size: 20px;
+    margin: 0;
+    padding: o;
 }
